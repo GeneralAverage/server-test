@@ -1,0 +1,13 @@
+modules = ["web", "bash", "nodejs-20"]
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 8081
+externalPort = 8008
+
+[[ports]]
+localPort = 25565
+externalPort = 8080
+exposeLocalhost = true
