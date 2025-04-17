@@ -1,1530 +1,226 @@
-[19:41:42] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[19:41:42] [Server thread/INFO]: Loading properties
-[19:41:42] [Server thread/INFO]: Default game type: SURVIVAL
-[19:41:42] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[19:41:42] [Server thread/INFO]: Debug logging is disabled
-[19:41:42] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[19:41:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-
-[19:41:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:41:42] [Server thread/INFO]: Data value allowed items: 
-[19:41:42] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
-
-[19:41:42] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-
-[19:41:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
-
-[19:41:42] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-[19:41:42] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-
-[19:41:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
-
-[19:41:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
-
-[19:41:42] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
-
-[19:41:42] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
-
-[19:41:42] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[19:41:42] [Server thread/INFO]: Generating keypair
-[19:41:42] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[19:41:42] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[19:41:42] [Server thread/INFO]: Using default channel type
-[19:41:42] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[19:41:42] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[19:41:42] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
-[19:41:42] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[19:41:42] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[19:41:42] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[19:41:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:41:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:41:42] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[19:41:42] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[19:41:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:41:42] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[19:41:42] [Server thread/INFO]: Preparing level "world"
-[19:41:42] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:41:42] [Server thread/INFO]: Mob Spawn Range: 4
-[19:41:42] [Server thread/INFO]: Anti X-Ray: true
-[19:41:42] [Server thread/INFO]: 	Engine Mode: 1
-[19:41:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:41:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:41:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:41:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:41:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:41:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:41:42] [Server thread/INFO]: Random Lighting Updates: false
-[19:41:42] [Server thread/INFO]: Structure Info Saving: true
-[19:41:42] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:41:42] [Server thread/INFO]: Max Entity Collisions: 8
-[19:41:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:41:42] [Server thread/INFO]: Max TNT Explosions: 100
-[19:41:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:41:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:41:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:41:42] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:41:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:41:42] [Server thread/INFO]: View Distance: 4
-[19:41:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:41:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:41:42] [Server thread/INFO]: Clear tick list: false
-[19:41:42] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:41:42] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:41:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:41:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:41:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:41:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:41:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:41:42] [Server thread/INFO]: Water over lava flow speed: 5
-[19:41:42] [Server thread/INFO]: Fix TNT cannons: false
-[19:41:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:41:42] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:41:42] [Server thread/INFO]: World async lighting: false
-[19:41:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:41:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:41:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:41:42] [Server thread/INFO]: Mob Spawn Range: 4
-[19:41:42] [Server thread/INFO]: Anti X-Ray: true
-[19:41:42] [Server thread/INFO]: 	Engine Mode: 1
-[19:41:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:41:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:41:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:41:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:41:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:41:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:41:42] [Server thread/INFO]: Random Lighting Updates: false
-[19:41:42] [Server thread/INFO]: Structure Info Saving: true
-[19:41:42] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:41:42] [Server thread/INFO]: Max Entity Collisions: 8
-[19:41:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:41:42] [Server thread/INFO]: Max TNT Explosions: 100
-[19:41:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:41:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:41:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:41:42] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:41:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:41:42] [Server thread/INFO]: View Distance: 4
-[19:41:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:41:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:41:42] [Server thread/INFO]: Clear tick list: false
-[19:41:42] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:41:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:41:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:41:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:41:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:41:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:41:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:41:42] [Server thread/INFO]: Water over lava flow speed: 5
-[19:41:42] [Server thread/INFO]: Fix TNT cannons: false
-[19:41:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:41:42] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:41:42] [Server thread/INFO]: World async lighting: false
-[19:41:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:41:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:41:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:41:42] [Server thread/INFO]: Mob Spawn Range: 4
-[19:41:42] [Server thread/INFO]: Anti X-Ray: true
-[19:41:42] [Server thread/INFO]: 	Engine Mode: 1
-[19:41:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:41:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:41:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:41:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:41:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:41:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:41:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:41:42] [Server thread/INFO]: Random Lighting Updates: false
-[19:41:42] [Server thread/INFO]: Structure Info Saving: true
-[19:41:42] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:41:42] [Server thread/INFO]: Max Entity Collisions: 8
-[19:41:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:41:42] [Server thread/INFO]: Max TNT Explosions: 100
-[19:41:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:41:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:41:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:41:42] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:41:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:41:42] [Server thread/INFO]: View Distance: 4
-[19:41:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:41:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:41:42] [Server thread/INFO]: Clear tick list: false
-[19:41:42] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:41:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:41:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:41:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:41:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:41:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:41:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:41:42] [Server thread/INFO]: Water over lava flow speed: 5
-[19:41:42] [Server thread/INFO]: Fix TNT cannons: false
-[19:41:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:41:42] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:41:42] [Server thread/INFO]: World async lighting: false
-[19:41:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:41:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:41:42] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5865942673472376432)
-[19:41:43] [Server thread/INFO]: Preparing spawn area: 66%
-[19:41:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5865942673472376432)
-[19:41:45] [Server thread/INFO]: Preparing spawn area: 68%
-[19:41:45] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5865942673472376432)
-[19:41:45] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[19:41:45] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[19:41:45] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[19:41:45] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[19:41:45] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
-[19:41:45] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
-
-[19:41:45] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[19:41:45] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[19:41:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:41:46] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[19:41:46] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[19:41:46] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[19:41:46] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[19:41:46] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[19:41:46] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[19:41:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:41:46] [Server thread/INFO]: Done (3.675s)! For help, type "help" or "?"
-[19:41:46] [Server thread/INFO]: Timings Reset
-[19:41:47] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[19:41:47] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[19:41:47] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[19:45:11] [Thread-7/INFO]: UUID of player GeneralAverage is 9a9b330f-044f-3799-b03f-17caad0cade0
-[19:45:11] [Server thread/INFO]: GeneralAverage[/10.0.0.1:36348] logged in with entity id 455 at ([world]-8.886586896653473, 73.0, 268.9049014547738)
-[19:45:29] [Server thread/INFO]: GeneralAverage issued server command: /shot list
-[19:45:33] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[19:45:49] [Server thread/INFO]: GeneralAverage issued server command: /gamerule keepInventory true
-[19:45:49] [Server thread/INFO]: [GeneralAverage: Game rule has been updated]
-[19:45:51] [Server thread/INFO]: GeneralAverage tried to swim in lava
-[19:47:57] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage Iron_ingot 64
-[19:47:57] [Server thread/INFO]: [GeneralAverage: There is no such item with name minecraft:Iron_ingot]
-[19:48:01] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 64
-[19:48:01] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 64 to GeneralAverage]
-[19:49:48] [Server thread/INFO]: GeneralAverage issued server command: /time set day
-[19:49:48] [Server thread/INFO]: [GeneralAverage: Set the time to 1000]
-[19:49:50] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[19:49:50] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[19:52:16] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[19:52:16] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[19:53:25] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[19:53:25] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[19:53:35] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[19:53:35] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[19:53:42] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[19:53:42] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[19:58:53] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[19:58:53] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[19:58:58] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[19:58:58] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[19:59:16] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 64
-[19:59:16] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 64 to GeneralAverage]
-[19:59:21] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[19:59:21] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[19:59:55] [Server thread/INFO]: GeneralAverage lost connection: Disconnected
-[19:59:55] [Server thread/INFO]: GeneralAverage left the game.
-[20:03:32] [Thread-9/INFO]: UUID of player GeneralAverage is 9a9b330f-044f-3799-b03f-17caad0cade0
-[20:03:32] [Server thread/INFO]: GeneralAverage[/10.0.0.1:58484] logged in with entity id 1637 at ([world]14.3874069264643, 73.0, 252.31615599351295)
-[20:03:46] [Server thread/INFO]: GeneralAverage issued server command: /time set day
-[20:03:46] [Server thread/INFO]: [GeneralAverage: Set the time to 1000]
-[20:03:48] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[20:03:48] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[20:05:31] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[20:05:31] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[20:05:56] [Server thread/INFO]: GeneralAverage blew up
-[20:06:13] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[20:06:13] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[20:06:25] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[20:06:25] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[20:07:26] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[20:07:32] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage
-[20:07:35] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage diamond 15
-[20:07:35] [Server thread/INFO]: [GeneralAverage: Given [Diamond] * 15 to GeneralAverage]
-[20:07:49] [Server thread/INFO]: GeneralAverage blew up
-[20:08:35] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:08:35] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:09:06] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:09:06] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:09:29] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:09:29] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:10:05] [Thread-10/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:10:05] [Server thread/INFO]: mraxol[/10.0.0.1:36086] logged in with entity id 2819 at ([world_nether]-133.69999998807907, 53.0, 182.69999998807907)
-[20:10:12] [Async Chat Thread - #0/INFO]: <GeneralAverage> sup[m
-
-[20:10:19] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[20:10:24] [Async Chat Thread - #0/INFO]: <mraxol> not much[m
-
-[20:10:24] [Async Chat Thread - #0/INFO]: <GeneralAverage> im testing new stuff[m
-
-[20:10:27] [Async Chat Thread - #0/INFO]: <GeneralAverage> tpa[m
-
-[20:10:33] [Async Chat Thread - #0/INFO]: <GeneralAverage> tpa[m
-
-[20:10:34] [Async Chat Thread - #0/INFO]: <mraxol> not right now[m
-
-[20:10:37] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:10:37] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:10:44] [Async Chat Thread - #0/INFO]: <mraxol> remember my keep invintory doesn't work[m
-
-[20:10:49] [Async Chat Thread - #0/INFO]: <GeneralAverage> im not killing[m
-
-[20:10:52] [Async Chat Thread - #0/INFO]: <GeneralAverage> relax[m
-
-[20:11:04] [Async Chat Thread - #0/INFO]: <GeneralAverage> or u can come to spawn[m
-
-[20:11:10] [Async Chat Thread - #0/INFO]: <GeneralAverage> tpa to me or i will force tp[m
-
-[20:11:16] [Async Chat Thread - #0/INFO]: <mraxol> how do i get better fps[m
-
-[20:11:17] [Async Chat Thread - #0/INFO]: <GeneralAverage> just set a home where u are[m
-
-[20:11:21] [Async Chat Thread - #0/INFO]: <GeneralAverage> turn down render distance[m
-
-[20:11:29] [Async Chat Thread - #0/INFO]: <GeneralAverage> tpa bro[m
-
-[20:11:30] [Async Chat Thread - #0/INFO]: <mraxol> i am at 5 fps and in a bad spot[m
-
-[20:11:38] [Server thread/INFO]: mraxol issued server command: /tpa gen
-[20:11:39] [Async Chat Thread - #0/INFO]: <GeneralAverage> do /home and then tpa[m
-
-[20:11:41] [Server thread/INFO]: GeneralAverage issued server command: /tpaccept
-[20:11:51] [Async Chat Thread - #0/INFO]: <mraxol> one sec[m
-
-[20:11:53] [Server thread/INFO]: mraxol issued server command: /back
-[20:11:53] [Async Chat Thread - #0/INFO]: <GeneralAverage> these are shops[m
-
-[20:11:56] [Async Chat Thread - #0/INFO]: <GeneralAverage> do not break the signs[m
-
-[20:12:11] [Server thread/INFO]: mraxol issued server command: /sethome blaze
-[20:12:14] [Server thread/INFO]: mraxol issued server command: /back
-[20:12:17] [Async Chat Thread - #0/INFO]: <mraxol> my bad[m
-
-[20:12:25] [Async Chat Thread - #0/INFO]: <GeneralAverage> ?[m
-
-[20:12:29] [Async Chat Thread - #0/INFO]: <GeneralAverage> did u break one[m
-
-[20:12:39] [Async Chat Thread - #0/INFO]: <mraxol> no[m
-
-[20:12:45] [Async Chat Thread - #0/INFO]: <mraxol> went back and set home[m
-
-[20:12:46] [Async Chat Thread - #0/INFO]: <GeneralAverage> ok look[m
-
-[20:12:48] [Async Chat Thread - #0/INFO]: <GeneralAverage> those are consumables[m
-
-[20:13:18] [Async Chat Thread - #0/INFO]: <mraxol> too cheap[m
-
-[20:13:23] [Async Chat Thread - #0/INFO]: <GeneralAverage> they are consumable[m
-
-[20:13:26] [Async Chat Thread - #0/INFO]: <mraxol> still[m
-
-[20:13:27] [Async Chat Thread - #0/INFO]: <GeneralAverage> that's for just one[m
-
-[20:13:35] [Async Chat Thread - #0/INFO]: <mraxol> there is iron farms[m
-
-[20:13:53] [Async Chat Thread - #0/INFO]: <GeneralAverage> ill just ban those[m
-
-[20:13:57] [Server thread/INFO]: GeneralAverage issued server command: /time set day
-[20:13:57] [Server thread/INFO]: [GeneralAverage: Set the time to 1000]
-[20:13:57] [Async Chat Thread - #0/INFO]: <mraxol> maybe half or quarter the amount in dimonds[m
-
-[20:14:00] [Async Chat Thread - #0/INFO]: <GeneralAverage> no[m
-
-[20:14:03] [Async Chat Thread - #0/INFO]: <mraxol> why[m
-
-[20:14:10] [Async Chat Thread - #0/INFO]: <GeneralAverage> i dont wanna make them unaffordable[m
-
-[20:14:15] [Async Chat Thread - #0/INFO]: <GeneralAverage> they arent that good anyway[m
-
-[20:14:22] [Async Chat Thread - #0/INFO]: <mraxol> airstrike[m
-
-[20:14:24] [Async Chat Thread - #0/INFO]: <GeneralAverage> if u wanna change cost il just nerf instead[m
-
-[20:14:29] [Async Chat Thread - #0/INFO]: <GeneralAverage> thats 15 diamonds per strike[m
-
-[20:14:32] [Async Chat Thread - #0/INFO]: <mraxol> fair[m
-
-[20:14:40] [Async Chat Thread - #0/INFO]: <mraxol> ok[m
-
-[20:14:53] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:14:53] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:15:05] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:15:05] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:15:06] [Async Chat Thread - #0/INFO]: <mraxol> also just to let you know even if you do ban iron farms someone is still probably going to make one[m
-
-[20:15:26] [Async Chat Thread - #0/INFO]: <GeneralAverage> that was tear gas[m
-
-[20:15:30] [Async Chat Thread - #0/INFO]: <mraxol> nice[m
-
-[20:15:32] [Async Chat Thread - #0/INFO]: <mraxol> one sec[m
-
-[20:15:33] [Async Chat Thread - #0/INFO]: <GeneralAverage> that was tear gas[m
-
-[20:15:39] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:15:39] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:15:41] [Async Chat Thread - #0/INFO]: <mraxol> does a milk bucket clear[m
-
-[20:15:46] [Async Chat Thread - #0/INFO]: <GeneralAverage> ye[m
-
-[20:15:50] [Async Chat Thread - #0/INFO]: <mraxol> bru[m
-
-[20:15:53] [Async Chat Thread - #0/INFO]: <mraxol> fair price[m
-
-[20:15:58] [Async Chat Thread - #0/INFO]: <mraxol> bru[m
-
-[20:16:03] [Async Chat Thread - #0/INFO]: <mraxol> dangourous place[m
-
-[20:16:07] [Async Chat Thread - #0/INFO]: <GeneralAverage> that is mustard gas[m
-
-[20:16:09] [Async Chat Thread - #0/INFO]: <mraxol> dangerous[m
-
-[20:16:11] [Async Chat Thread - #0/INFO]: <GeneralAverage> btw no pvp at spawn[m
-
-[20:16:14] [Async Chat Thread - #0/INFO]: <mraxol> ok[m
-
-[20:16:22] [Async Chat Thread - #0/INFO]: <GeneralAverage> pvp or break signs = ban[m
-
-[20:16:25] [Async Chat Thread - #0/INFO]: <GeneralAverage> is mustard gas broken[m
-
-[20:16:36] [Async Chat Thread - #0/INFO]: <mraxol> did your raid the fortress[m
-
-[20:16:37] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:16:37] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:16:39] [Async Chat Thread - #0/INFO]: <GeneralAverage> yes[m
-
-[20:16:43] [Async Chat Thread - #0/INFO]: <mraxol> bru[m
-
-[20:16:46] [Async Chat Thread - #0/INFO]: <GeneralAverage> try that[m
-
-[20:16:47] [Async Chat Thread - #0/INFO]: <mraxol> what was there[m
-
-[20:16:52] [Async Chat Thread - #0/INFO]: <GeneralAverage> what i just gave u[m
-
-[20:17:00] [Async Chat Thread - #0/INFO]: <GeneralAverage> adrenaline[m
-
-[20:17:17] [Async Chat Thread - #0/INFO]: <mraxol> why i have poisin[m
-
-[20:17:17] [Async Chat Thread - #0/INFO]: <GeneralAverage> balanced?[m
-
-[20:17:22] [Async Chat Thread - #0/INFO]: <GeneralAverage> because it's not good for u[m
-
-[20:17:26] [Async Chat Thread - #0/INFO]: <GeneralAverage> irl[m
-
-[20:17:33] [Async Chat Thread - #0/INFO]: <GeneralAverage> but it makes u crazy strong for like 10s[m
-
-[20:17:45] [Async Chat Thread - #0/INFO]: <GeneralAverage> so like if u gotta storm a building its good[m
-
-[20:17:49] [Async Chat Thread - #0/INFO]: <GeneralAverage> so like if u gotta storm a building its good[m
-
-[20:17:51] [Async Chat Thread - #0/INFO]: <mraxol> fine[m
-
-[20:17:55] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:17:55] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:18:11] [Server thread/INFO]: mraxol was slain by GeneralAverage using [§eFrag Grenade§e]
-[20:18:16] [Async Chat Thread - #0/INFO]: <GeneralAverage> oh crap[m
-
-[20:18:19] [Async Chat Thread - #0/INFO]: <mraxol> YESSSSS[m
-
-[20:18:23] [Async Chat Thread - #0/INFO]: <GeneralAverage> i didnt know it did that much[m
-
-[20:18:26] [Async Chat Thread - #0/INFO]: <mraxol> KEEP INVINTORY IS WORKING NOW[m
-
-[20:18:36] [Async Chat Thread - #0/INFO]: <GeneralAverage> dmg?[m
-
-[20:18:40] [Async Chat Thread - #0/INFO]: <mraxol> 9 hearts[m
-
-[20:18:42] [Async Chat Thread - #0/INFO]: <GeneralAverage> dmg?[m
-
-[20:18:44] [Async Chat Thread - #0/INFO]: <GeneralAverage> ok good[m
-
-[20:18:46] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:18:46] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:18:54] [Async Chat Thread - #0/INFO]: <GeneralAverage> pick this up[m
-
-[20:19:05] [Async Chat Thread - #0/INFO]: <GeneralAverage> thats a trap[m
-
-[20:19:07] [Async Chat Thread - #0/INFO]: <mraxol> bru[m
-
-[20:19:10] [Async Chat Thread - #0/INFO]: <GeneralAverage> dmg?[m
-
-[20:19:13] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:19:13] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:19:15] [Async Chat Thread - #0/INFO]: <mraxol> idk[m
-
-[20:19:18] [Async Chat Thread - #0/INFO]: <mraxol> im too low[m
-
-[20:19:24] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[20:19:24] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[20:19:25] [Async Chat Thread - #0/INFO]: <mraxol> can you give me healing[m
-
-[20:19:34] [Async Chat Thread - #0/INFO]: <mraxol> thanks[m
-
-[20:19:38] [Async Chat Thread - #0/INFO]: <mraxol> now try[m
-
-[20:19:43] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[20:19:43] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[20:20:14] [Async Chat Thread - #0/INFO]: <GeneralAverage> dmg?[m
-
-[20:20:18] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:20:18] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:20:22] [Async Chat Thread - #0/INFO]: <mraxol> 8 and a half with poisin[m
-
-[20:20:31] [Async Chat Thread - #0/INFO]: <GeneralAverage> can u see this[m
-
-[20:20:37] [Async Chat Thread - #0/INFO]: <mraxol> yes[m
-
-[20:20:39] [Async Chat Thread - #0/INFO]: <GeneralAverage> bruh[m
-
-[20:20:44] [Server thread/INFO]: mraxol was slain by GeneralAverage
-[20:20:49] [Async Chat Thread - #0/INFO]: <GeneralAverage> that was c4[m
-
-[20:20:50] [Async Chat Thread - #0/INFO]: <mraxol> lol[m
-
-[20:20:54] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage iron_ingot 15
-[20:20:54] [Server thread/INFO]: [GeneralAverage: Given [Iron Ingot] * 15 to GeneralAverage]
-[20:21:02] [Async Chat Thread - #0/INFO]: <GeneralAverage> stand there[m
-
-[20:21:03] [Async Chat Thread - #0/INFO]: <mraxol> im gonna go back now[m
-
-[20:21:09] [Async Chat Thread - #0/INFO]: <GeneralAverage> no hold on[m
-
-[20:21:13] [Async Chat Thread - #0/INFO]: <GeneralAverage> stand here[m
-
-[20:21:20] [Server thread/INFO]: mraxol was slain by GeneralAverage using [Putty]
-[20:21:27] [Async Chat Thread - #0/INFO]: <mraxol> k now can i[m
-
-[20:21:31] [Async Chat Thread - #0/INFO]: <GeneralAverage> ye[m
-
-[20:21:36] [Async Chat Thread - #0/INFO]: <GeneralAverage> feel free to use shops whenever[m
-
-[20:21:37] [Async Chat Thread - #0/INFO]: <mraxol> tanks[m
-
-[20:21:40] [Async Chat Thread - #0/INFO]: <mraxol> bye[m
-
-[20:21:52] [Async Chat Thread - #0/INFO]: <mraxol> also to get to this /spawn?[m
-
-[20:21:55] [Async Chat Thread - #0/INFO]: <GeneralAverage> no[m
-
-[20:22:04] [Async Chat Thread - #0/INFO]: <mraxol> how do i get back[m
-
-[20:22:06] [Server thread/INFO]: GeneralAverage issued server command: /back
-[20:22:10] [Async Chat Thread - #0/INFO]: <GeneralAverage> do /back[m
-
-[20:22:16] [Async Chat Thread - #0/INFO]: <GeneralAverage> or set a home here idc[m
-
-[20:22:18] [Server thread/INFO]: mraxol issued server command: /sethome store
-[20:22:20] [Async Chat Thread - #0/INFO]: <mraxol> k[m
-
-[20:22:26] [Async Chat Thread - #0/INFO]: <GeneralAverage> if u dont have a bed and die ull just end up here[m
-
-[20:22:28] [Server thread/INFO]: mraxol issued server command: /tell gen bye
-[20:22:28] [Server thread/INFO]: [mraxol: That player cannot be found]
-[20:22:29] [Server thread/INFO]: GeneralAverage issued server command: /sethome shop
-[20:22:33] [Server thread/INFO]: mraxol issued server command: /tell gen bye
-[20:22:33] [Server thread/INFO]: [mraxol: That player cannot be found]
-[20:22:39] [Server thread/INFO]: mraxol issued server command: /msg gen bye
-[20:22:42] [Server thread/INFO]: mraxol fell from a high place
-[20:22:51] [Server thread/INFO]: mraxol issued server command: /home blaze
-[20:22:55] [Async Chat Thread - #0/INFO]: <mraxol> bye[m
-
-[20:22:58] [Async Chat Thread - #0/INFO]: <GeneralAverage> ok bye[m
-
-[20:22:58] [Async Chat Thread - #0/INFO]: <mraxol> bru[m
-
-[20:23:00] [Async Chat Thread - #0/INFO]: <mraxol> bru[m
-
-[20:23:02] [Async Chat Thread - #0/INFO]: <GeneralAverage> what[m
-
-[20:23:03] [Server thread/INFO]: mraxol issued server command: /home blaze
-[20:23:08] [Async Chat Thread - #0/INFO]: <mraxol> LET ME TPA[m
-
-[20:23:11] [Async Chat Thread - #0/INFO]: <GeneralAverage> oh mb[m
-
-[20:23:15] [Server thread/INFO]: mraxol issued server command: /home blaze
-[20:23:18] [Async Chat Thread - #0/INFO]: <mraxol> it good[m
-
-[20:23:19] [Async Chat Thread - #0/INFO]: <mraxol> bye[m
-
-[20:24:23] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[20:24:23] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[20:24:37] [Server thread/INFO]: GeneralAverage issued server command: /tp 201 11 489
-[20:24:37] [Server thread/INFO]: [GeneralAverage: Teleported GeneralAverage to 201.5, 11.0, 489.5]
-[20:25:11] [Server thread/INFO]: GeneralAverage issued server command: /tp 169 14 513
-[20:25:11] [Server thread/INFO]: [GeneralAverage: Teleported GeneralAverage to 169.5, 14.0, 513.5]
-[20:25:44] [Server thread/INFO]: GeneralAverage issued server command: /tp 62 106 139
-[20:25:44] [Server thread/INFO]: [GeneralAverage: Teleported GeneralAverage to 62.5, 106.0, 139.5]
-[20:27:24] [Server thread/INFO]: mraxol was slain by Blaze
-[20:27:35] [Server thread/INFO]: mraxol issued server command: /back
-[20:27:44] [Server thread/INFO]: mraxol was slain by Blaze
-[20:27:49] [Async Chat Thread - #1/INFO]: <GeneralAverage> u not firelord[m
-
-[20:27:58] [Async Chat Thread - #1/INFO]: <mraxol> keep invintory failed again[m
-
-[20:28:02] [Async Chat Thread - #1/INFO]: <GeneralAverage> its in nether[m
-
-[20:28:06] [Server thread/INFO]: mraxol was slain by Zombie
-[20:28:15] [Async Chat Thread - #1/INFO]: <GeneralAverage> it is no keepinventory in nether for somereason[m
-
-[20:28:22] [Async Chat Thread - #1/INFO]: <GeneralAverage> thats only explantion[m
-
-[20:28:24] [Server thread/INFO]: mraxol issued server command: /back
-[20:28:26] [Async Chat Thread - #1/INFO]: <mraxol> bru[m
-
-[20:28:28] [Async Chat Thread - #1/INFO]: <GeneralAverage> i lost stuff when dying to a blaze[m
-
-[20:28:32] [Async Chat Thread - #1/INFO]: <GeneralAverage> well just be careful[m
-
-[20:28:37] [Async Chat Thread - #1/INFO]: <GeneralAverage> tell me if u lose gun[m
-
-[20:28:41] [Server thread/INFO]: mraxol issued server command: /back
-[20:28:56] [Async Chat Thread - #1/INFO]: <mraxol> i just lost everything[m
-
-[20:29:03] [Async Chat Thread - #1/INFO]: <GeneralAverage> what u had[m
-
-[20:29:28] [Async Chat Thread - #1/INFO]: <GeneralAverage> axol?[m
-
-[20:29:32] [Thread-12/INFO]: UUID of player Guy132211 is 041969d5-6e27-3c70-847d-a953b8ea20cc
-[20:29:32] [Server thread/INFO]: Guy132211[/10.0.0.1:35950] logged in with entity id 5702 at ([world]62.08336222187802, 106.0, 139.55634070658448)
-[20:29:34] [Async Chat Thread - #1/INFO]: <mraxol> guns 4 nether wart 12 blaze rods and a couple soul sand[m
-
-[20:29:40] [Async Chat Thread - #1/INFO]: <mraxol> the rest was some wood[m
-
-[20:29:44] [Server thread/INFO]: GeneralAverage issued server command: /give mraxol nether_wart 4
-[20:29:44] [Server thread/INFO]: [GeneralAverage: Given [Nether Wart] * 4 to mraxol]
-[20:29:45] [Async Chat Thread - #1/INFO]: <Guy132211> hi friends[m
-
-[20:29:49] [Server thread/INFO]: GeneralAverage issued server command: /give mraxol blaze_rod 12
-[20:29:49] [Server thread/INFO]: [GeneralAverage: Given [Blaze Rod] * 12 to mraxol]
-[20:29:58] [Server thread/INFO]: GeneralAverage issued server command: /shot give mraxol olympia
-[20:30:00] [Server thread/INFO]: GeneralAverage issued server command: /shot give mraxol python
-[20:30:04] [Async Chat Thread - #1/INFO]: <mraxol> and 6 levels but you cant do much about that[m
-
-[20:30:07] [Async Chat Thread - #1/INFO]: <mraxol> thanks[m
-
-[20:30:22] [Server thread/INFO]: mraxol issued server command: /home nether
-[20:30:27] [Server thread/INFO]: Guy132211 fell from a high place
-[20:30:27] [Server thread/INFO]: mraxol issued server command: /home blazes
-[20:30:30] [Server thread/INFO]: mraxol issued server command: /homes
-[20:30:31] [Server thread/INFO]: Guy132211 issued server command: /back
-[20:30:34] [Server thread/INFO]: mraxol issued server command: /home blaze
-[20:30:44] [Server thread/INFO]: mraxol was slain by Blaze
-[20:30:53] [Server thread/INFO]: mraxol issued server command: /back
-[20:31:22] [Async Chat Thread - #2/INFO]: <Guy132211> hi[m
-
-[20:31:24] [Async Chat Thread - #2/INFO]: <GeneralAverage> hi[m
-
-[20:31:27] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[20:31:27] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[20:31:31] [Async Chat Thread - #2/INFO]: <mraxol> aaaaaa[m
-
-[20:31:31] [Server thread/INFO]: GeneralAverage was slain by Guy132211 using [Python / Knife ]
-[20:31:35] [Server thread/INFO]: GeneralAverage issued server command: /back
-[20:31:36] [Server thread/INFO]: Guy132211 issued server command: /home home1
-[20:31:43] [Async Chat Thread - #2/INFO]: <Guy132211> mb[m
-
-[20:31:44] [Server thread/INFO]: Guy132211 lost connection: Disconnected
-[20:31:44] [Server thread/INFO]: Guy132211 left the game.
-[20:31:47] [Thread-13/INFO]: UUID of player Guy132211 is 041969d5-6e27-3c70-847d-a953b8ea20cc
-[20:31:47] [Server thread/INFO]: Guy132211[/10.0.0.1:54754] logged in with entity id 6492 at ([world]62.08336222187802, 106.0, 139.55634070658448)
-[20:31:54] [Async Chat Thread - #2/INFO]: <GeneralAverage> wtf guy[m
-
-[20:32:10] [Server thread/INFO]: GeneralAverage issued server command: /tpa guy
-[20:32:15] [Server thread/INFO]: Guy132211 issued server command: /tpaccept
-[20:32:21] [Server thread/INFO]: GeneralAverage was slain by Guy132211 using [Python / Knife ]
-[20:32:25] [Server thread/INFO]: GeneralAverage issued server command: /back
-[20:32:28] [Async Chat Thread - #2/INFO]: <Guy132211> oops[m
-
-[20:32:45] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #6885 to (-93.64344053609052,-2.2807356417867815,-36.57664969283376).
-[20:32:45] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[20:32:45] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[20:32:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[20:32:45] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2212)
-
-[20:32:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[20:32:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[20:32:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[20:32:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[20:32:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[20:32:45] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[20:32:45] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[20:32:52] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #6910 to (-4.020011110324026,-0.016416505654265418,-0.16264880758185657).
-[20:32:52] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[20:32:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[20:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[20:32:52] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2212)
-
-[20:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[20:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[20:32:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[20:32:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[20:32:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[20:32:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[20:32:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[20:32:52] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #6928 to (-4.038364571327009,-0.20509379493804955,-0.0214896696037892).
-[20:32:52] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[20:32:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[20:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[20:32:52] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2212)
-
-[20:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[20:32:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[20:32:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[20:32:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[20:32:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[20:32:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[20:32:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[20:32:53] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #6932 to (-4.091088721019449,-0.059202635122486386,0.08462229814112977).
-[20:32:53] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[20:32:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[20:32:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[20:32:53] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2212)
-
-[20:32:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[20:32:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[20:32:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[20:32:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[20:32:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[20:32:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[20:32:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[20:32:53] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #6939 to (-4.1513833203979384,-0.029338411201518366,-0.09091949049901596).
-[20:32:53] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[20:32:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[20:32:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[20:32:53] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2212)
-
-[20:32:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[20:32:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[20:32:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[20:32:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[20:32:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[20:32:53] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[20:32:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[20:33:04] [Server thread/INFO]: GeneralAverage was pummeled by Guy132211 using [Python / Knife ]
-[20:33:08] [Server thread/INFO]: GeneralAverage issued server command: /back
-[20:33:11] [Async Chat Thread - #2/INFO]: <Guy132211> te he[m
-
-[20:33:26] [Server thread/INFO]: GeneralAverage was slain by Guy132211 using [Python / Knife ]
-[20:33:29] [Server thread/INFO]: GeneralAverage issued server command: /back
-[20:33:34] [Async Chat Thread - #2/INFO]: <Guy132211> stop[m
-
-[20:33:57] [Async Chat Thread - #2/INFO]: <GeneralAverage> come[m
-
-[20:34:00] [Async Chat Thread - #2/INFO]: <Guy132211> stop[m
-
-[20:34:01] [Async Chat Thread - #2/INFO]: <GeneralAverage> i started tune[m
-
-[20:34:03] [Server thread/INFO]: GeneralAverage was slain by Guy132211 using [Python / Knife ]
-[20:34:09] [Server thread/INFO]: GeneralAverage issued server command: /back
-[20:34:23] [Async Chat Thread - #2/INFO]: <GeneralAverage> guy come back[m
-
-[20:34:26] [Server thread/INFO]: GeneralAverage fell from a high place
-[20:34:31] [Server thread/INFO]: GeneralAverage issued server command: /back
-[20:34:38] [Async Chat Thread - #2/INFO]: <Guy132211> ok[m
-
-[20:34:41] [Async Chat Thread - #2/INFO]: <GeneralAverage> tpa[m
-
-[20:34:43] [Async Chat Thread - #2/INFO]: <Guy132211> i am back[m
-
-[20:34:45] [Server thread/INFO]: mraxol was slain by Blaze
-[20:34:47] [Server thread/INFO]: Guy132211 issued server command: /tpa generl
-[20:34:50] [Async Chat Thread - #2/INFO]: <GeneralAverage> tpa[m
-
-[20:34:51] [Server thread/INFO]: Guy132211 issued server command: /tpa gen
-[20:34:52] [Server thread/INFO]: mraxol issued server command: /back
-[20:34:53] [Server thread/INFO]: GeneralAverage issued server command: /tpaccept
-[20:35:04] [Async Chat Thread - #2/INFO]: <GeneralAverage> tunnel[m
-
-[20:35:07] [Server thread/INFO]: Guy132211 issued server command: /sethome tunnel
-[20:35:36] [Async Chat Thread - #2/INFO]: <GeneralAverage> keep mining[m
-
-[20:35:37] [Server thread/INFO]: GeneralAverage was slain by Guy132211 using [Python / Knife ]
-[20:35:37] [Server thread/INFO]: GeneralAverage issued server command: /home base
-[20:35:41] [Async Chat Thread - #2/INFO]: <GeneralAverage> wtf[m
-
-[20:35:42] [Server thread/INFO]: mraxol was slain by Blaze
-[20:35:44] [Async Chat Thread - #2/INFO]: <GeneralAverage> keep mining forward[m
-
-[20:35:47] [Server thread/INFO]: GeneralAverage issued server command: /home base
-[20:35:47] [Server thread/INFO]: mraxol issued server command: /back
-[20:35:49] [Async Chat Thread - #2/INFO]: <Guy132211> my[m
-
-[20:35:51] [Async Chat Thread - #2/INFO]: <Guy132211> bad[m
-
-[20:35:51] [Server thread/INFO]: GeneralAverage tried to swim in lava
-[20:35:55] [Server thread/INFO]: GeneralAverage issued server command: /back
-[20:35:58] [Server thread/INFO]: mraxol was slain by Blaze
-[20:36:06] [Server thread/INFO]: mraxol issued server command: /back
-[20:36:13] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[20:36:13] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[20:36:44] [Server thread/INFO]: mraxol was burnt to a crisp whilst fighting Blaze
-[20:36:56] [Async Chat Thread - #3/INFO]: <mraxol> Bru[m
-
-[20:37:01] [Async Chat Thread - #3/INFO]: <GeneralAverage> u not firelord[m
-
-[20:37:07] [Async Chat Thread - #3/INFO]: <mraxol> i just lost the nether wart :([m
-
-[20:37:09] [Server thread/INFO]: mraxol issued server command: /back
-[20:37:10] [Async Chat Thread - #3/INFO]: <GeneralAverage> bruh[m
-
-[20:37:13] [Server thread/INFO]: Guy132211 issued server command: /tpa gener
-[20:37:15] [Async Chat Thread - #3/INFO]: <GeneralAverage> then dont leave it in inventory[m
-
-[20:37:18] [Async Chat Thread - #3/INFO]: <GeneralAverage> guy no[m
-
-[20:37:22] [Async Chat Thread - #3/INFO]: <Guy132211> yes[m
-
-[20:37:24] [Async Chat Thread - #3/INFO]: <Guy132211> pls[m
-
-[20:37:26] [Async Chat Thread - #3/INFO]: <Guy132211> now[m
-
-[20:37:29] [Server thread/INFO]: GeneralAverage issued server command: /tell guy132211 im working on tunnel from other side whats ur z coord
-[20:37:29] [Server thread/INFO]: mraxol issued server command: /back
-[20:38:05] [Server thread/INFO]: GeneralAverage issued server command: /tell guy132211 im working on tunnel from other side whats ur z coord
-[20:38:08] [Async Chat Thread - #3/INFO]: <mraxol> can i have back and the couple soul sand and i will stop going back[m
-
-[20:38:16] [Async Chat Thread - #3/INFO]: <GeneralAverage> ok[m
-
-[20:38:22] [Server thread/INFO]: Guy132211 issued server command: /tell generalaveragex -98, y 35 z139
-[20:38:22] [Server thread/INFO]: [Guy132211: That player cannot be found]
-[20:38:36] [Server thread/INFO]: GeneralAverage issued server command: /tell guy132211 just type my ful uesr
-[20:38:45] [Server thread/INFO]: Guy132211 issued server command: /tell generalaverage x -98 z 139 y35
-[20:38:51] [Server thread/INFO]: GeneralAverage issued server command: /tell guy132211 k
-[20:38:54] [Async Chat Thread - #3/INFO]: <mraxol> max[m
-
-[20:39:04] [Server thread/INFO]: GeneralAverage issued server command: /tell guy132211 mine forward ONLY
-[20:39:14] [Server thread/INFO]: GeneralAverage issued server command: /tell guy132211 do NOT go left or right
-[20:39:15] [Async Chat Thread - #3/INFO]: <Guy132211> ok max[m
-
-[20:39:30] [Async Chat Thread - #3/INFO]: <Guy132211> i will go kill ryan[m
-
-[20:39:39] [Async Chat Thread - #3/INFO]: <GeneralAverage> tell Guy132211 ok[m
-
-[20:39:44] [Async Chat Thread - #3/INFO]: <mraxol> bru[m
-
-[20:39:53] [Async Chat Thread - #3/INFO]: <mraxol> wat about the stuff you said[m
-
-[20:39:58] [Async Chat Thread - #3/INFO]: <Guy132211> oh shoot[m
-
-[20:40:23] [Async Chat Thread - #3/INFO]: <Guy132211> what stuff[m
-
-[20:40:59] [Async Chat Thread - #3/INFO]: <mraxol> he said he would give the 4 nether wart and couple soul sand back since nether keap invintory does[m
-
-[20:41:01] [Async Chat Thread - #3/INFO]: <mraxol> not work[m
-
-[20:41:02] [Async Chat Thread - #3/INFO]: <GeneralAverage> oops[m
-
-[20:41:03] [Async Chat Thread - #3/INFO]: <Guy132211> tell generalaverage can you give me full diamond and all the guns[m
-
-[20:41:11] [Server thread/INFO]: GeneralAverage issued server command: /give mraxol nether_wart 4
-[20:41:11] [Server thread/INFO]: [GeneralAverage: Given [Nether Wart] * 4 to mraxol]
-[20:41:12] [Async Chat Thread - #3/INFO]: <Guy132211> oh shoot[m
-
-[20:41:12] [Async Chat Thread - #3/INFO]: <mraxol> please max[m
-
-[20:41:13] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:41:13] [Server thread/INFO]: mraxol left the game.
-[20:41:19] [Server thread/INFO]: GeneralAverage issued server command: /give mraxol soul_sand 16
-[20:41:19] [Server thread/INFO]: [GeneralAverage: That player cannot be found]
-[20:41:22] [Thread-14/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:41:22] [Server thread/INFO]: mraxol[/10.0.0.1:50132] logged in with entity id 11627 at ([world]167.20550499079425, 83.0, 182.8271268771673)
-[20:41:25] [Server thread/INFO]: GeneralAverage issued server command: /give mraxol soul_sand 16
-[20:41:25] [Server thread/INFO]: [GeneralAverage: Given [Soul Sand] * 16 to mraxol]
-[20:41:36] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:41:36] [Server thread/INFO]: mraxol left the game.
-[20:41:44] [Async Chat Thread - #3/INFO]: <GeneralAverage> guy your z coord should stay at 139[m
-
-[20:41:50] [Thread-15/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:41:51] [Server thread/INFO]: mraxol[/10.0.0.1:52152] logged in with entity id 11816 at ([world]167.20550499079425, 83.0, 182.8271268771673)
-[20:41:52] [Async Chat Thread - #3/INFO]: <Guy132211> i will[m
-
-[20:41:58] [Server thread/INFO]: GeneralAverage issued server command: /tell Guy im mining on other side now
-[20:41:58] [Server thread/INFO]: [GeneralAverage: That player cannot be found]
-[20:42:01] [Server thread/INFO]: GeneralAverage issued server command: /tell Guy im mining on other side now
-[20:42:01] [Server thread/INFO]: [GeneralAverage: That player cannot be found]
-[20:42:05] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:42:05] [Server thread/INFO]: mraxol left the game.
-[20:42:06] [Server thread/INFO]: GeneralAverage issued server command: /tell Guy132211 im mining on other side now
-[20:42:17] [Thread-16/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:42:18] [Server thread/INFO]: mraxol[/10.0.0.1:38250] logged in with entity id 11891 at ([world]167.20550499079425, 83.0, 182.8271268771673)
-[20:42:34] [Async Chat Thread - #3/INFO]: <mraxol> thank you gen[m
-
-[20:42:39] [Server thread/INFO]: Guy132211 issued server command: /tell generalaverage ok
-[20:42:41] [Server thread/INFO]: GeneralAverage issued server command: /tell Guy132211 whats ur x coord
-[20:42:58] [Server thread/INFO]: Guy132211 issued server command: /tell general average -151
-[20:42:58] [Server thread/INFO]: [Guy132211: That player cannot be found]
-[20:43:12] [Server thread/INFO]: Guy132211 issued server command: /tell generalaverage x -151
-[20:43:40] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[20:43:40] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[20:43:50] [Server thread/INFO]: GeneralAverage issued server command: /give GeneralAverage torch 64
-[20:43:50] [Server thread/INFO]: [GeneralAverage: Given [Torch] * 64 to GeneralAverage]
-[20:43:56] [Async Chat Thread - #4/INFO]: <GeneralAverage> give Guy132211 NUKE 128[m
-
-[20:44:00] [Async Chat Thread - #4/INFO]: <GeneralAverage> oops[m
-
-[20:44:06] [Async Chat Thread - #4/INFO]: <Guy132211> bru[m
-
-[20:44:13] [Async Chat Thread - #4/INFO]: <Guy132211> do /give[m
-
-[20:44:15] [Async Chat Thread - #4/INFO]: <mraxol> ut o[m
-
-[20:44:21] [Async Chat Thread - #4/INFO]: <GeneralAverage> shot give Guy132211 NUKE 64[m
-
-[20:44:28] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:44:28] [Server thread/INFO]: mraxol left the game.
-[20:44:39] [Async Chat Thread - #4/INFO]: <GeneralAverage> hehe[m
-
-[20:45:01] [Thread-17/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:45:01] [Server thread/INFO]: mraxol[/10.0.0.1:42718] logged in with entity id 12922 at ([world]284.3211039697574, 77.40739540236494, 191.69999998807907)
-[20:45:06] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[20:45:06] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[20:45:10] [Async Chat Thread - #4/INFO]: <Guy132211> max I have to go my coords are x-181 y35 z139[m
-
-[20:45:16] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:45:16] [Server thread/INFO]: mraxol left the game.
-[20:45:20] [Async Chat Thread - #4/INFO]: <GeneralAverage> BRO[m
-
-[20:45:20] [Async Chat Thread - #4/INFO]: <Guy132211> ok[m
-
-[20:45:26] [Async Chat Thread - #4/INFO]: <Guy132211> oh shoot[m
-
-[20:45:29] [Async Chat Thread - #4/INFO]: <Guy132211> uh[m
-
-[20:45:33] [Async Chat Thread - #4/INFO]: <Guy132211> aw man[m
-
-[20:45:34] [Thread-18/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:45:34] [Server thread/INFO]: mraxol[/10.0.0.1:41340] logged in with entity id 13044 at ([world]284.3211039697574, 74.95739535468115, 191.69999998807907)
-[20:45:36] [Async Chat Thread - #4/INFO]: <GeneralAverage> BRO[m
-
-[20:45:41] [Async Chat Thread - #4/INFO]: <Guy132211> e[m
-
-[20:45:47] [Async Chat Thread - #4/INFO]: <Guy132211> d[m
-
-[20:45:48] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:45:48] [Server thread/INFO]: mraxol left the game.
-[20:45:49] [Async Chat Thread - #4/INFO]: <Guy132211> d[m
-
-[20:45:51] [Async Chat Thread - #4/INFO]: <Guy132211> d[m
-
-[20:45:53] [Async Chat Thread - #4/INFO]: <Guy132211> s[m
-
-[20:45:53] [Thread-19/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:45:53] [Server thread/INFO]: mraxol[/10.0.0.1:52854] logged in with entity id 13134 at ([world]284.3211039697574, 74.95739535468115, 191.69999998807907)
-[20:45:54] [Async Chat Thread - #4/INFO]: <Guy132211> d[m
-
-[20:45:56] [Async Chat Thread - #4/INFO]: <Guy132211> s[m
-
-[20:45:58] [Async Chat Thread - #4/INFO]: <Guy132211> s[m
-
-[20:45:59] [Server thread/INFO]: Guy132211 issued server command: /
-[20:46:02] [Async Chat Thread - #4/INFO]: <Guy132211> s[m
-
-[20:46:04] [Async Chat Thread - #4/INFO]: <Guy132211> s[m
-
-[20:46:06] [Async Chat Thread - #4/INFO]: <Guy132211> s[m
-
-[20:46:07] [Server thread/INFO]: Guy132211 issued server command: /
-[20:46:09] [Async Chat Thread - #4/INFO]: <Guy132211> s[m
-
-[20:46:13] [Async Chat Thread - #4/INFO]: <Guy132211> s[m
-
-[20:46:14] [Server thread/INFO]: GeneralAverage issued server command: /chat clear
-[20:46:21] [Async Chat Thread - #4/INFO]: <Guy132211> he can't see it now[m
-
-[20:46:24] [Async Chat Thread - #4/INFO]: <GeneralAverage> hehe[m
-
-[20:46:26] [Async Chat Thread - #4/INFO]: <Guy132211> bye[m
-
-[20:46:28] [Server thread/INFO]: Guy132211 lost connection: Disconnected
-[20:46:28] [Server thread/INFO]: Guy132211 left the game.
-[20:46:28] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:33] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:34] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:35] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:35] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:36] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:36] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:37] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:37] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:38] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:39] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:39] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:40] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:40] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:41] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:41] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:42] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:42] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:43] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:44] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:44] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:45] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:46] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:46] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:47] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:48] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:48] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:49] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:50] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:50] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:51] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:53] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:54] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:55] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:46:55] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:00] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:01] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:02] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:02] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:03] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:04] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:04] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:05] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:05] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:06] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:07] [Async Chat Thread - #4/INFO]: <GeneralAverage> waeft[m
-
-[20:47:19] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:20] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:20] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:21] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:21] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:22] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:22] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:23] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:23] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:24] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:24] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:25] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:26] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:26] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:27] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:27] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:31] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:32] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:33] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:33] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:34] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:34] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:35] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:35] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:36] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:36] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:37] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:37] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:38] [Async Chat Thread - #4/INFO]: <GeneralAverage> waef[m
-
-[20:47:49] [Async Chat Thread - #4/INFO]: <GeneralAverage> mraxol pls dont tell me u screenshoted it[m
-
-[20:47:55] [Async Chat Thread - #4/INFO]: <mraxol> waef[m
-
-[20:47:59] [Async Chat Thread - #4/INFO]: <GeneralAverage> ?[m
-
-[20:48:14] [Async Chat Thread - #4/INFO]: <GeneralAverage> hello?[m
-
-[20:48:17] [Async Chat Thread - #4/INFO]: <mraxol> d[m
-
-[20:48:20] [Async Chat Thread - #4/INFO]: <mraxol> sssssssssssss[m
-
-[20:48:22] [Async Chat Thread - #4/INFO]: <GeneralAverage> what?[m
-
-[20:48:25] [Async Chat Thread - #4/INFO]: <GeneralAverage> just tell me[m
-
-[20:48:34] [Async Chat Thread - #4/INFO]: <mraxol> which screenshot[m
-
-[20:48:42] [Async Chat Thread - #4/INFO]: <GeneralAverage> guy leaked our real base coords in chat[m
-
-[20:48:49] [Async Chat Thread - #4/INFO]: <mraxol> no[m
-
-[20:48:50] [Async Chat Thread - #4/INFO]: <GeneralAverage> but me and guy spammed to make it so u cant see it[m
-
-[20:49:03] [Async Chat Thread - #4/INFO]: <GeneralAverage> thats why im spamming waef[m
-
-[20:49:22] [Async Chat Thread - #4/INFO]: <GeneralAverage> ello?[m
-
-[20:49:24] [Async Chat Thread - #4/INFO]: <GeneralAverage> hello?[m
-
-[20:49:56] [Async Chat Thread - #4/INFO]: <GeneralAverage> pluh?[m
-
-[20:50:01] [Async Chat Thread - #4/INFO]: <mraxol> yeah[m
-
-[20:50:04] [Async Chat Thread - #4/INFO]: <GeneralAverage> did u hear me[m
-
-[20:50:07] [Async Chat Thread - #4/INFO]: <mraxol> yea[m
-
-[20:50:14] [Async Chat Thread - #4/INFO]: <GeneralAverage> did u ss[m
-
-[20:50:17] [Async Chat Thread - #4/INFO]: <mraxol> no[m
-
-[20:50:19] [Async Chat Thread - #4/INFO]: <GeneralAverage> good[m
-
-[20:50:29] [Async Chat Thread - #4/INFO]: <GeneralAverage> it was troll hehe[m
-
-[20:50:31] [Server thread/INFO]: mraxol fell from a high place
-[20:50:36] [Server thread/INFO]: mraxol issued server command: /back
-[20:50:37] [Async Chat Thread - #4/INFO]: <mraxol> bru[m
-
-[20:50:43] [Async Chat Thread - #4/INFO]: <mraxol> overworld but still[m
-
-[20:50:43] [Async Chat Thread - #4/INFO]: <GeneralAverage> i got u so confusd[m
-
-[20:50:56] [Async Chat Thread - #4/INFO]: <mraxol> max[m
-
-[20:50:58] [Async Chat Thread - #4/INFO]: <GeneralAverage> wut[m
-
-[20:51:01] [Async Chat Thread - #4/INFO]: <mraxol> 460 302[m
-
-[20:51:09] [Async Chat Thread - #4/INFO]: <mraxol> that mean anything to you[m
-
-[20:51:13] [Async Chat Thread - #4/INFO]: <GeneralAverage> no[m
-
-[20:51:15] [Async Chat Thread - #4/INFO]: <GeneralAverage> wut[m
-
-[20:51:20] [Async Chat Thread - #4/INFO]: <mraxol> lol[m
-
-[20:51:26] [Async Chat Thread - #4/INFO]: <mraxol> i found somebodys base[m
-
-[20:51:28] [Async Chat Thread - #4/INFO]: <GeneralAverage> r u trollig[m
-
-[20:51:32] [Async Chat Thread - #4/INFO]: <mraxol> or mine[m
-
-[20:51:33] [Async Chat Thread - #4/INFO]: <GeneralAverage> tpa me[m
-
-[20:51:41] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[20:51:41] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
-[20:51:45] [Server thread/INFO]: GeneralAverage issued server command: /sethome tunnel
-[20:51:45] [Async Chat Thread - #4/INFO]: <mraxol> send it[m
-
-[20:51:50] [Server thread/INFO]: GeneralAverage issued server command: /tpa mraxol
-[20:52:03] [Async Chat Thread - #4/INFO]: <mraxol> one sec[m
-
-[20:52:43] [Async Chat Thread - #4/INFO]: <mraxol> k[m
-
-[20:52:48] [Server thread/INFO]: mraxol issued server command: /tpaccept
-[20:52:57] [Async Chat Thread - #4/INFO]: <GeneralAverage> what[m
-
-[20:52:59] [Server thread/INFO]: GeneralAverage issued server command: /tpa mraxol
-[20:53:03] [Server thread/INFO]: mraxol issued server command: /tpaccept
-[20:53:22] [Async Chat Thread - #4/INFO]: <GeneralAverage> bruh nothing here[m
-
-[20:53:27] [Async Chat Thread - #4/INFO]: <mraxol> i know but still[m
-
-[20:53:49] [Async Chat Thread - #4/INFO]: <GeneralAverage> come to me[m
-
-[20:53:53] [Async Chat Thread - #4/INFO]: <GeneralAverage> u got water[m
-
-[20:53:59] [Async Chat Thread - #4/INFO]: <mraxol> no[m
-
-[20:54:02] [Async Chat Thread - #4/INFO]: <GeneralAverage> found a pid[m
-
-[20:54:04] [Async Chat Thread - #4/INFO]: <GeneralAverage> pit[m
-
-[20:54:04] [Async Chat Thread - #4/INFO]: <mraxol> down there is a mine[m
-
-[20:54:07] [Async Chat Thread - #4/INFO]: <mraxol> checked[m
-
-[20:54:09] [Async Chat Thread - #4/INFO]: <GeneralAverage> oh[m
-
-[20:54:24] [Server thread/INFO]: GeneralAverage issued server command: /home tunnel
-[20:54:30] [Server thread/INFO]: GeneralAverage issued server command: /gamemode c
-[20:54:30] [Server thread/INFO]: [GeneralAverage: Set own game mode to Creative Mode]
-[20:54:44] [Async Chat Thread - #4/INFO]: <mraxol> can you tpa me 1000 1000[m
-
-[20:54:47] [Async Chat Thread - #4/INFO]: <GeneralAverage> no[m
-
-[20:55:01] [Async Chat Thread - #4/INFO]: <mraxol> gud find though[m
-
-[20:56:19] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:56:19] [Server thread/INFO]: mraxol left the game.
-[20:56:32] [Thread-21/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:56:33] [Server thread/INFO]: mraxol[/10.0.0.1:51260] logged in with entity id 15842 at ([world]570.106494369567, 62.23503724716007, 419.1125923774542)
-[20:56:37] [Async Chat Thread - #5/INFO]: <GeneralAverage> why u keep leaving[m
-
-[20:56:47] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:56:47] [Server thread/INFO]: mraxol left the game.
-[20:56:50] [Thread-22/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:56:50] [Server thread/INFO]: mraxol[/10.0.0.1:56250] logged in with entity id 15898 at ([world]571.2689909907053, 60.54296597349113, 420.35052099072027)
-[20:57:04] [Async Chat Thread - #5/INFO]: <GeneralAverage> why u keep leaving[m
-
-[20:57:32] [Async Chat Thread - #5/INFO]: <mraxol> bad wifi[m
-
-[20:58:08] [Server thread/INFO]: mraxol lost connection: Disconnected
-[20:58:08] [Server thread/INFO]: mraxol left the game.
-[20:58:17] [Thread-23/INFO]: UUID of player mraxol is e6a498cf-f5ab-336c-bb08-b405200e5276
-[20:58:17] [Server thread/INFO]: mraxol[/10.0.0.1:33792] logged in with entity id 16155 at ([world]744.5262350612248, 62.241617996305834, 625.0566821190058)
-[20:58:25] [Server thread/WARN]: mraxol moved too quickly! 0.0,10.200000578186433,0.0 (0.0, 10.200000578186433, 0.0)
-[20:59:04] [Server thread/INFO]: GeneralAverage issued server command: /shot get AIRGUN
-[20:59:49] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[21:00:11] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[21:00:24] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[21:00:25] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (2.3418398929305526E-16,4.5,1.4520054461346461E-16).
-[21:00:25] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:00:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:00:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:00:25] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:00:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:00:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:00:25] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:00:25] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:00:25] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:00:25] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:00:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:00:37] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[21:00:41] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (-0.2209146391540405,5.4818968049812735,0.3873036815517595).
-[21:00:41] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:00:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:00:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:00:41] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:00:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:00:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:00:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:00:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:00:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:00:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:00:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:00:41] [Server thread/WARN]: GeneralAverage moved too quickly! 0.3999999761581421,-11.23392821414184,0.0 (0.3999999761581421, -11.23392821414184, 0.0)
-[21:00:51] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (1.4895280159343212E-16,5.5,3.020470103498305E-16).
-[21:00:51] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:00:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:00:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:00:51] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:00:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:00:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:00:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:00:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:01:02] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (-0.057594468655239706,5.499698433044157,-1.5083752921150133E-4).
-[21:01:02] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:01:02] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:01:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:01:02] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:01:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:01:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:01:02] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:01:02] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:01:02] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:01:02] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:01:02] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:01:13] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[21:01:15] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (-0.06849230509450863,6.996545910848843,-0.2089356875384617).
-[21:01:15] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:01:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:01:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:01:15] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:01:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:01:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:01:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:01:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:01:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:01:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:01:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:01:28] [Server thread/INFO]: GeneralAverage issued server command: /shot config reload
-[21:01:30] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (-5.716529067693667E-16,10.0,-2.1943769012546181E-16).
-[21:01:30] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:01:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:01:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:01:30] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:01:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:01:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:01:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:01:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:01:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:01:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:01:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:01:50] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (-6.052778188295553E-16,10.0,-9.262131341327694E-17).
-[21:01:50] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:01:50] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:01:50] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:01:50] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:01:50] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:01:50] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:01:50] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:01:50] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:01:50] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:01:50] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:01:50] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:02:01] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (-6.066580149772014E-16,10.0,-8.310233768905744E-17).
-[21:02:01] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:02:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:02:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:02:01] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:02:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:02:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:02:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:02:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:02:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:02:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:02:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:02:10] [Server thread/WARN]: Excessive velocity set detected: tried to set velocity of entity #1637 to (-4.3860798595958087E-16,10.0,-4.27273893794068E-16).
-[21:02:10] [Server thread/WARN]: java.lang.Exception: Stack trace
-
-[21:02:10] [Server thread/WARN]: 	at java.base/java.lang.Thread.dumpStack(Thread.java:2209)
-
-[21:02:10] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity.setVelocity(CraftEntity.java:213)
-
-[21:02:10] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector$4.run(CSDirector.java:2019)
-
-[21:02:10] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
-
-[21:02:10] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-
-[21:02:10] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783)
-
-[21:02:10] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)
-
-[21:02:10] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
-
-[21:02:10] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
-
-[21:02:10] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21:02:31] [Server thread/INFO]: mraxol lost connection: Disconnected
-[21:02:31] [Server thread/INFO]: mraxol left the game.
-[21:05:03] [Server thread/INFO]: GeneralAverage issued server command: /effect
-[21:05:11] [Server thread/INFO]: GeneralAverage issued server command: /effect GeneralAverage speed 100 4
-[21:05:11] [Server thread/INFO]: [GeneralAverage: Given Speed (ID 1) * 4 to GeneralAverage for 100 seconds]
-[21:05:19] [Server thread/INFO]: GeneralAverage issued server command: /effect GeneralAverage speed 100 10
-[21:05:19] [Server thread/INFO]: [GeneralAverage: Given Speed (ID 1) * 10 to GeneralAverage for 100 seconds]
-[21:06:57] [Server thread/INFO]: The entity UUID provided is in an invalid format
-[21:07:03] [Server thread/INFO]: The entity UUID provided is in an invalid format
-[21:07:11] [Server thread/INFO]: GeneralAverage issued server command: /gamemode s
-[21:07:11] [Server thread/INFO]: [GeneralAverage: Set own game mode to Survival Mode]
+[00:03:19] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[00:03:19] [Server thread/INFO]: Loading properties
+[00:03:19] [Server thread/INFO]: Default game type: SURVIVAL
+[00:03:19] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[00:03:19] [Server thread/INFO]: Debug logging is disabled
+[00:03:19] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[00:03:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[00:03:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:03:19] [Server thread/INFO]: Data value allowed items: 
+[00:03:19] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[00:03:19] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[00:03:19] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[00:03:19] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[00:03:19] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[00:03:19] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[00:03:19] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[00:03:19] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[00:03:19] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[00:03:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[00:03:19] [Server thread/INFO]: Generating keypair
+[00:03:20] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[00:03:20] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[00:03:20] [Server thread/INFO]: Using default channel type
+[00:03:20] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[00:03:20] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[00:03:20] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
+[00:03:20] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[00:03:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[00:03:20] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[00:03:20] [Server thread/INFO]: [Graves] Loading Graves v4.9
+[00:03:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:03:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:03:20] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[00:03:20] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[00:03:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:03:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[00:03:20] [Server thread/INFO]: Preparing level "world"
+[00:03:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:03:20] [Server thread/INFO]: Mob Spawn Range: 4
+[00:03:20] [Server thread/INFO]: Anti X-Ray: true
+[00:03:20] [Server thread/INFO]: 	Engine Mode: 1
+[00:03:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:03:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:03:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:03:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:03:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:03:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:03:20] [Server thread/INFO]: Random Lighting Updates: false
+[00:03:20] [Server thread/INFO]: Structure Info Saving: true
+[00:03:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:03:20] [Server thread/INFO]: Max Entity Collisions: 8
+[00:03:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:03:20] [Server thread/INFO]: Max TNT Explosions: 100
+[00:03:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:03:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:03:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:03:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:03:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:03:20] [Server thread/INFO]: View Distance: 4
+[00:03:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:03:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:03:20] [Server thread/INFO]: Clear tick list: false
+[00:03:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:03:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:03:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:03:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:03:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:03:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:03:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:03:20] [Server thread/INFO]: Water over lava flow speed: 5
+[00:03:20] [Server thread/INFO]: Fix TNT cannons: false
+[00:03:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:03:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:03:20] [Server thread/INFO]: World async lighting: false
+[00:03:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:03:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:03:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:03:20] [Server thread/INFO]: Mob Spawn Range: 4
+[00:03:20] [Server thread/INFO]: Anti X-Ray: true
+[00:03:20] [Server thread/INFO]: 	Engine Mode: 1
+[00:03:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:03:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:03:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:03:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:03:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:03:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:03:20] [Server thread/INFO]: Random Lighting Updates: false
+[00:03:20] [Server thread/INFO]: Structure Info Saving: true
+[00:03:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:03:20] [Server thread/INFO]: Max Entity Collisions: 8
+[00:03:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:03:20] [Server thread/INFO]: Max TNT Explosions: 100
+[00:03:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:03:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:03:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:03:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:03:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:03:20] [Server thread/INFO]: View Distance: 4
+[00:03:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:03:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:03:20] [Server thread/INFO]: Clear tick list: false
+[00:03:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:03:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:03:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:03:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:03:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:03:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:03:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:03:20] [Server thread/INFO]: Water over lava flow speed: 5
+[00:03:20] [Server thread/INFO]: Fix TNT cannons: false
+[00:03:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:03:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:03:20] [Server thread/INFO]: World async lighting: false
+[00:03:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:03:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:03:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:03:20] [Server thread/INFO]: Mob Spawn Range: 4
+[00:03:20] [Server thread/INFO]: Anti X-Ray: true
+[00:03:20] [Server thread/INFO]: 	Engine Mode: 1
+[00:03:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:03:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:03:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:03:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:03:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:03:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:03:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:03:20] [Server thread/INFO]: Random Lighting Updates: false
+[00:03:20] [Server thread/INFO]: Structure Info Saving: true
+[00:03:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:03:20] [Server thread/INFO]: Max Entity Collisions: 8
+[00:03:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:03:20] [Server thread/INFO]: Max TNT Explosions: 100
+[00:03:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:03:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:03:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:03:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:03:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:03:20] [Server thread/INFO]: View Distance: 4
+[00:03:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:03:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:03:20] [Server thread/INFO]: Clear tick list: false
+[00:03:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:03:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:03:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:03:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:03:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:03:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:03:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:03:20] [Server thread/INFO]: Water over lava flow speed: 5
+[00:03:20] [Server thread/INFO]: Fix TNT cannons: false
+[00:03:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:03:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:03:20] [Server thread/INFO]: World async lighting: false
+[00:03:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:03:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:03:20] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5865942673472376432)
+[00:03:21] [Server thread/INFO]: Preparing spawn area: 73%
+[00:03:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5865942673472376432)
+[00:03:23] [Server thread/INFO]: Preparing spawn area: 98%
+[00:03:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5865942673472376432)
+[00:03:23] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[00:03:23] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[00:03:23] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[00:03:23] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[00:03:23] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
+[00:03:23] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+
+[00:03:23] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[00:03:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[00:03:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:03:23] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[00:03:23] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[00:03:23] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[00:03:23] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[00:03:24] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[00:03:24] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[00:03:24] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[00:03:24] [Server thread/INFO]: [Graves] Integration: WorldEdit 6.1;no_git_id detected, Only WorldEdit 7+ is supported.Disabling WorldEdit support.
+[00:03:24] [Server thread/INFO]: [Graves] Compatibility: World "world" has keepInventory set to true, Graves will not be created here.
+[00:03:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:03:24] [Server thread/INFO]: Done (3.593s)! For help, type "help" or "?"
+[00:03:24] [Server thread/INFO]: Timings Reset
+[00:03:24] [Server thread/INFO]: [Graves] Information: Legacy version detected, Graves will run but may have problems with material names, the default config is setup for the latest version of the game, you can alter the config manually to fix any issues you encounter, you will need to find the names of materials and sounds for your version.
+[00:03:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[00:03:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[00:03:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[00:06:33] [Thread-2/INFO]: Stopping server
