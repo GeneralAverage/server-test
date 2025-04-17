@@ -489,7 +489,7 @@ M16A4:
     Projectile_Type: snowball
     Remove_Bullet_Drop: false
     Projectile_Speed: 40
-    Projectile_Damage: 5
+    Projectile_Damage: 3.5
     Bullet_Spread: 2
     Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
   Sneak:

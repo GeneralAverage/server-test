@@ -190,7 +190,7 @@ Grenade:
   Explosions:
     Enable: true
     Explosion_No_Grief: true
-    Explosion_Radius: 4
+    Explosion_Radius: 5
     Explosion_Delay: 60
   Extras:
     One_Time_Use: true
@@ -220,7 +220,8 @@ Flashbang:
     Explosion_No_Grief: true
     Explosion_No_Damage: true
     Explosion_Radius: 6
-    Explosion_Potion_Effect: BLINDNESS-120-1,SLOW-120-1
+    Enable_Owner_Immunity: true
+    Explosion_Potion_Effect: BLINDNESS-160-1,SLOW-160-1
     Explosion_Delay: 20
     Sounds_Victim: LEVEL_UP-1-0-0
     Sounds_Explode: ANVIL_LAND-2-1-0
@@ -283,8 +284,9 @@ TearGas:
     Enable: true
     Explosion_No_Grief: true
     Explosion_No_Damage: true
+    Enable_Owner_Immunity: true
     Explosion_Radius: 7
-    Explosion_Potion_Effect: CONFUSION-240-1,SLOW-240-2,WEAKNESS-120-2
+    Explosion_Potion_Effect: CONFUSION-280-1,SLOW-280-2,WEAKNESS-120-2
     Explosion_Delay: 20
     Sounds_Victim: LEVEL_UP-1-0-0
     Sounds_Explode: ANVIL_LAND-2-1-0
@@ -315,7 +317,8 @@ Mustard:
     Explosion_No_Grief: true
     Explosion_No_Damage: true
     Explosion_Radius: 6
-    Explosion_Potion_Effect: POISON-220-3
+    Enable_Owner_Immunity: true
+    Explosion_Potion_Effect: POISON-260-3
     Explosion_Delay: 20
     Sounds_Victim: LEVEL_UP-1-0-0
     Sounds_Explode: ANVIL_LAND-2-1-0
