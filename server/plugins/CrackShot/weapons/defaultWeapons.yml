@@ -441,9 +441,13 @@ MP5:
     Projectile_Amount: 1
     Projectile_Type: snowball
     Projectile_Speed: 30
-    Projectile_Damage: 1
+    Projectile_Damage: 4
     Bullet_Spread: 6
     Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+  Damage_Based_On_Flight_Time:
+    Enable: true
+    Bonus_Damage_Per_Tick: -1
+    Maximum_Damage: -3
   Sneak:
     Enable: true
     No_Recoil: true
@@ -489,7 +493,7 @@ M16A4:
     Projectile_Type: snowball
     Remove_Bullet_Drop: false
     Projectile_Speed: 40
-    Projectile_Damage: 3.5
+    Projectile_Damage: 5
     Bullet_Spread: 2
     Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
   Sneak:
