@@ -217,7 +217,10 @@ Riotshield:
     Durability_Loss_Per_Hit: 1
     Sounds_Blocked: GLASS-2-2-0
     Sounds_Break: ITEM_BREAK-2-1-0
-
+  SignShops:
+    Enable: true
+    Price: 265-20
+    Sign_Gun_ID: 14
 Olympia:
   Item_Information:
     Item_Name: "&eOlympia"
