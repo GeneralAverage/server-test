@@ -378,7 +378,7 @@ HEStrike:
     Sounds_Shoot: FIRE_IGNITE-2-0-0,FIZZ-2-0-0
   Airstrikes:
     Enable: true
-    Flare_Activation_Delay: 10
+    Flare_Activation_Delay: 40
     Particle_Call_Airstrike: lightning
     Message_Call_Airstrike: "&eFriendly artillery strike incoming."
     Block_Type: 85
