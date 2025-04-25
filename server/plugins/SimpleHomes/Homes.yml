@@ -14,6 +14,11 @@ Guy132211:
     X: -33.075658039284946
     Y: 37.0
     Z: 139.38331137912343
+  shop:
+    world: world
+    X: 8.381328892159406
+    Y: 73.0
+    Z: 252.3140915166718
 GeneralAverage:
   base:
     world: world
@@ -35,11 +40,11 @@ GeneralAverage:
     X: -1108.5
     Y: 6.0
     Z: -1021.5
-  blaze:
+  armory:
     world: world_nether
-    X: -132.37648013755734
-    Y: 53.0
-    Z: 183.53370368063332
+    X: -299.52591475776285
+    Y: 129.0
+    Z: 338.78711920229557
 Nyklin:
   base:
     world: world
@@ -51,11 +56,6 @@ Nyklin:
     X: 176.35231268503233
     Y: 12.0
     Z: 514.6321737973444
-  max:
-    world: world_nether
-    X: -79.62197117433928
-    Y: 113.0
-    Z: -56.235716884848934
   spawn:
     world: world
     X: 7.300000011920929
@@ -72,6 +72,26 @@ Lele_LaPuma:
     X: 84.32888450555885
     Y: 64.0
     Z: 51.15693989226846
+  base:
+    world: world
+    X: 109.212339768755
+    Y: 47.0
+    Z: 44.97636992143161
+  chase:
+    world: world
+    X: 134.3947742507612
+    Y: 27.0
+    Z: 22.699999988079067
+  armoury:
+    world: world_nether
+    X: -300.5989115219803
+    Y: 129.0
+    Z: 336.7576873830521
+  cave:
+    world: world
+    X: 45.39458684670221
+    Y: 11.0
+    Z: 573.7686387606819
 mraxol:
   blaze:
     world: world_nether
